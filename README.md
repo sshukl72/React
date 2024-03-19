@@ -11,3 +11,5 @@ Node modules: Its is a file which contains all the dependencies  that are needed
 
 ^(caret): this is a symbol used in package.json file which upgrades the minor version of the dependency.
 ~(Tilde) : It's a symbol used in package.json file which adds the Major version of the dependency.
+
+Integrity in package-lock.json : A string representing an SHA-1 hash of the package contents. If you have integrity it use the hash to get the exact version.
